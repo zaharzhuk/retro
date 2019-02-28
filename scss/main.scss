@@ -22,12 +22,12 @@
     margin-right: auto;
 
     &__logo {
-        background: url("./pictures/Logo");
+        background: url("../pictures/Logo");
     }
 }
 
 .dekor {
-    background: url("./pictures/Line.png");
+    background: url("../pictures/Line.png");
 }
 
 .block {
@@ -41,7 +41,7 @@
     &__retro {
         width: 50px;
         height: 50px;
-        background: url("./pictures/RETRO-banner.png");
+        background: url("../pictures/RETRO-banner.png");
     }
 }
 
@@ -97,8 +97,9 @@
     background: #fbfaf6;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
-    &_baner {
+    &__baner {
     width: 750px;
     height: 200px;
     background: #e3dfd7;
