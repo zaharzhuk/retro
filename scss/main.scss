@@ -90,3 +90,17 @@
     }
 
 }
+
+.rounded {
+    width: 800px;
+    height: 300px;
+    background: #fbfaf6;
+    display: flex;
+    flex-direction: column;
+
+    &_baner {
+    width: 750px;
+    height: 200px;
+    background: #e3dfd7;
+    }
+}
