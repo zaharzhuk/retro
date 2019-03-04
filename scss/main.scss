@@ -25,14 +25,15 @@ ul {
     margin-right: auto;
 }
 
-    .logo {
-        align-self: baseline;
-        height: 100px;
-    }
+.logo {
+    align-self: baseline;
+    height: 100px;
+}
 
 .dekor {
-    background: url("../pictures/Line.png");
-}
+    height: 0px;
+    width: 1070px;
+} 
 
 .block {
     width: 800px;
