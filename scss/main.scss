@@ -12,19 +12,23 @@
     background: rgb(27, 139, 125);
 }
 
-.meny {
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     width: 800px;
-    height: 50px;
+    height: 60px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-
-    &__logo {
-        background: url("../pictures/Logo.png");
-    }
 }
+
+    .logo {
+        align-self: baseline;
+        height: 100px;
+    }
 
 .dekor {
     background: url("../pictures/Line.png");
